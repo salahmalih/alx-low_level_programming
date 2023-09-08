@@ -7,24 +7,20 @@
  * Return: Always 0.
  */
 
-#include <stdio.h>
 
-int main(void) {
+int main() {
 	char c = 'a';
 
-	while (c <= 'z' || c <= 'Z') {
+	while (c <= 'z')
+	{
 	putchar(c);
-	if (c == 'z' )
-	{
-	c = 'A';
-	}
-	if(c == 'Z')
-	{
-	putchar('$');
-	putchar('\n');
-	return 0;
-	}
 	c = c + 1;
 	}
+	c = 'A';
+	while (c <= 'Z')
+	putchar(c);
+	c = c + 1;
+	}
+	putchar('\n');
 	return 0;
 }

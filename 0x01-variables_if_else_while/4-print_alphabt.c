@@ -11,9 +11,9 @@ int main(void)
 
 	while (c <= 'z')
 	{
-	if(c == 'q' || c == 'e')
+	if (c == 'q' || c == 'e')
 	{
-	c = c + 1; 
+	c = c + 1;
 	}
 	putchar(c);
 	c = c + 1;

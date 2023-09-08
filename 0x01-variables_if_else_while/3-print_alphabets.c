@@ -2,13 +2,13 @@
   
 /**
  * main - print the alphabet in lowercase letters, and then in uppercase
- * using  putchar and while
+ * using  3 putchar and while
  *
  * Return: Always 0.
  */
 
-
-int main() {
+int main(void)
+{
 	char c = 'a';
 
 	while (c <= 'z')
@@ -23,5 +23,5 @@ int main() {
 	c = c + 1;
 	}
 	putchar('\n');
-	return 0;
+	return (0);
 }

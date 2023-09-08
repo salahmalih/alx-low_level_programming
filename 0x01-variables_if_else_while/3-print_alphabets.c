@@ -1,5 +1,5 @@
 #include <stdio.h>
-  
+
 /**
  * main - print the alphabet in lowercase letters, and then in uppercase
  * using  3 putchar and while

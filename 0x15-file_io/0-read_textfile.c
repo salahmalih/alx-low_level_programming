@@ -17,14 +17,14 @@ ssize_t read_textfile(const char *filename, size_t letters){
     return (0);
     buffer=malloc(sizeof(char)*letters);
     if(buffer == NULL){
-        free(buffer),buffer=NULL;
+        free(buffer);buffer=NULL;
         return(0);
     }
     op = open(filename,O_RDONLY);
     rd = read(filename,buffer,letters);
     wr=write(STDOUT_FILENO,buffer,rd);
     if(op == -1 || rd == -1 || wr == -1){
-        free(buffer),buffer=NULL;
+        free(buffer);buffer=NULL;
         return(0);
     }
     free(buffer),buffer=NULL;

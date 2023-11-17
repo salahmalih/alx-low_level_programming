@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include <stdlib.h>
 /**
- * main - Entry point
+ * main - Write a program that prints its name
  *
  * Return: Always 0 (Success)
  */

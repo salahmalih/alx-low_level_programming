@@ -19,7 +19,7 @@ char *_strdup(char *str)
 	if (str == NULL)
 		return (NULL);
 	size = 0;
-	while (str[size] != '\0')
+	while (str[size])
 	{
 		size++;
 	}

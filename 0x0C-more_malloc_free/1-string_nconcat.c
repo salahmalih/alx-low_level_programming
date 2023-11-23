@@ -4,13 +4,16 @@
 
 /**
  * *string_nconcat - function that concatenates two strings.
- * @s1:String 1;@s2:String 2;@n:lenght.
+ * @s1:String 1;
+ * @s2:String 2;
+ * @n:lenght.
  *
  * Return: concatenates.
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	unsigned int i, len, j, l;
+	unsigned int i, len;
+	unsigned int j, l;
 	char *str;
 
 	len = 0;
